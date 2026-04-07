@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "LLM Bulk Analyzer (DOM + Markdown)",
+  "version": "0.1.0",
+  "description": "Extract DOM text and markdown from the current tab for LLM-readiness checks.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LLM Analyzer"
+  }
+}
