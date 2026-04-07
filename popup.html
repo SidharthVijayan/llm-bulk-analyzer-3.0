@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>LLM Analyzer</title>
+    <style>
+      body { font-family: Arial, sans-serif; width: 340px; margin: 12px; }
+      button { margin-right: 8px; margin-bottom: 8px; }
+      textarea { width: 100%; height: 180px; font-family: monospace; }
+      .small { color: #555; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <h3>LLM DOM Extractor</h3>
+    <button id="extractBtn">Extract Current Tab</button>
+    <button id="downloadBtn">Download JSON</button>
+    <div class="small" id="status">Idle</div>
+    <textarea id="output" placeholder="Extraction result..."></textarea>
+    <script src="popup.js"></script>
+  </body>
+</html>
